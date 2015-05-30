@@ -1,0 +1,30 @@
+{
+  "name": "akune",
+  "version": "1.0.0",
+  "description": "UI to view dump1090 data",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewazir/akune.git"
+  },
+  "keywords": [
+    "dump1090",
+    "rtl-sdr"
+  ],
+  "author": "Omer Wazir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thewazir/akune/issues"
+  },
+  "homepage": "https://github.com/thewazir/akune#readme",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-typescript": "^2.7.5",
+    "merge2": "^0.3.5"
+  }
+}

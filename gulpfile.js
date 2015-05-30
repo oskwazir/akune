@@ -14,8 +14,8 @@ gulp.task('clean', function(cb) {
  * A simple task to copy the main app.js file to the root directory
  */
 gulp.task('copy', function() {
-    return gulp.src("./release/js/app.js")
-                .pipe(gulp.dest("./"));
+    return gulp.src(["./src/index.html","./release/js/**/*.js"])
+                .pipe(gulp.dest("./dist"));
 });
 
 gulp.task('build', function() {
@@ -24,7 +24,6 @@ gulp.task('build', function() {
                            declarationFiles: true,
                            noExternalResolve: true
                        }));
-//    gulp.start('copy');
     return merge([
         tsResult.dts.pipe(gulp.dest('release/definitions')),
         tsResult.js.pipe(gulp.dest('release/js'))
