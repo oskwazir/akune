@@ -1,5 +1,5 @@
 #AKUNE
-<img src="https://cdn.rawgit.com/thewazir/akune/master/images/logo.svg" width="300px" height="300px" alt="AKUNE logo"></img>
+<img src="https://cdn.jsdelivr.net/gh/thewazir/akune@master/images/logo.svg" width="300px" height="300px" alt="AKUNE logo"></img>
 
 A web app for tracking planes.
 
